@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace ClassProject.Class
+namespace ObjectOrientedProgrammingProject.Class
 {
     class BankAccount
     {
@@ -23,19 +23,12 @@ namespace ClassProject.Class
             }
         }
 
-        private readonly decimal minimumBalance;
-
-        public BankAccount(string name, decimal initialBalance) : this(name, initialBalance, 0) { }
-
-        public BankAccount(string name, decimal initialBalance, decimal minimumBalance)
+        public BankAccount(string name, decimal initialBalance)
         {
+            this.Owner = name;
             this.Number = accountNumberSeed.ToString();
             accountNumberSeed++;
-
-            this.Owner = name;
-            this.minimumBalance = minimumBalance;
-            if (initialBalance > 0)
-                MakeDeposit(initialBalance, DateTime.Now, "Initial balance");
+            MakeDeposit(initialBalance, DateTime.Now, "Initial balance");
         }
 
         private List<Transaction> allTransactions = new List<Transaction>();
@@ -56,23 +49,12 @@ namespace ClassProject.Class
             {
                 throw new ArgumentOutOfRangeException(nameof(amount), "Amount of withdrawal must be positive");
             }
-            var overdraftTransaction = CheckWithdrawalLimit(Balance - amount < minimumBalance);
-            var withdrawal = new Transaction(-amount, date, note);
-            allTransactions.Add(withdrawal);
-            if (overdraftTransaction != null)
-                allTransactions.Add(overdraftTransaction);
-        }
-
-        protected virtual Transaction? CheckWithdrawalLimit(bool isOverdrawn)
-        {
-            if (isOverdrawn)
+            if (Balance - amount < 0)
             {
                 throw new InvalidOperationException("Not sufficient funds for this withdrawal");
             }
-            else
-            {
-                return default;
-            }
+            var withdrawal = new Transaction(-amount, date, note);
+            allTransactions.Add(withdrawal);
         }
 
         public string GetAccountHistory()
@@ -89,5 +71,7 @@ namespace ClassProject.Class
 
             return report.ToString();
         }
+
+        public virtual void PerformMonthEndTransactions() { }
     }
 }
