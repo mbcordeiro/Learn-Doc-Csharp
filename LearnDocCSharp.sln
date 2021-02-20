@@ -5,13 +5,15 @@ VisualStudioVersion = 16.0.30011.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LearnDocCSharp", "LearnDocCSharp\LearnDocCSharp.csproj", "{F91F3F9E-9F1B-465A-9F20-184464D230C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassProject", "ClassProject\ClassProject.csproj", "{6DF9382D-1A67-4D95-B6DC-CE9735E188CE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClassProject", "ClassProject\ClassProject.csproj", "{6DF9382D-1A67-4D95-B6DC-CE9735E188CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObjectOrientedProgrammingProject", "ObjectOrientedProgrammingProject\ObjectOrientedProgrammingProject.csproj", "{D8711A2A-684A-4D7D-9895-63551C7A0A31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ObjectOrientedProgrammingProject", "ObjectOrientedProgrammingProject\ObjectOrientedProgrammingProject.csproj", "{D8711A2A-684A-4D7D-9895-63551C7A0A31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecordTypeProject", "RecordTypeProject\RecordTypeProject.csproj", "{4B5C31E5-7DAF-4AC6-BD6B-3F78EC181A13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecordTypeProject", "RecordTypeProject\RecordTypeProject.csproj", "{4B5C31E5-7DAF-4AC6-BD6B-3F78EC181A13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopLevelStatements", "TopLevelStatements\TopLevelStatements.csproj", "{BB4750DF-074B-4354-8E0F-C491385D9857}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopLevelStatements", "TopLevelStatements\TopLevelStatements.csproj", "{BB4750DF-074B-4354-8E0F-C491385D9857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternObjectsProject", "PatternObjectsProject\PatternObjectsProject.csproj", "{007E9AB4-B148-4D44-8047-08889D4E9485}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{BB4750DF-074B-4354-8E0F-C491385D9857}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB4750DF-074B-4354-8E0F-C491385D9857}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB4750DF-074B-4354-8E0F-C491385D9857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{007E9AB4-B148-4D44-8047-08889D4E9485}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{007E9AB4-B148-4D44-8047-08889D4E9485}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{007E9AB4-B148-4D44-8047-08889D4E9485}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{007E9AB4-B148-4D44-8047-08889D4E9485}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
