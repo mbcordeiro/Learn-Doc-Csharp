@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopLevelStatements", "TopLe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternObjectsProject", "PatternObjectsProject\PatternObjectsProject.csproj", "{007E9AB4-B148-4D44-8047-08889D4E9485}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerRelationshipProject", "CustomerRelationshipProject\CustomerRelationshipProject.csproj", "{89200F78-C82E-4763-9D80-9C87C2FC44A3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{007E9AB4-B148-4D44-8047-08889D4E9485}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{007E9AB4-B148-4D44-8047-08889D4E9485}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{007E9AB4-B148-4D44-8047-08889D4E9485}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89200F78-C82E-4763-9D80-9C87C2FC44A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89200F78-C82E-4763-9D80-9C87C2FC44A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89200F78-C82E-4763-9D80-9C87C2FC44A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89200F78-C82E-4763-9D80-9C87C2FC44A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
