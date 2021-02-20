@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternObjectsProject", "Pa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerRelationshipProject", "CustomerRelationshipProject\CustomerRelationshipProject.csproj", "{89200F78-C82E-4763-9D80-9C87C2FC44A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MixinsWithInterfacesProject", "MixinsWithInterfacesProject\MixinsWithInterfacesProject.csproj", "{8F5C0F42-637B-45B4-95C0-75164D8BF457}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{89200F78-C82E-4763-9D80-9C87C2FC44A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89200F78-C82E-4763-9D80-9C87C2FC44A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89200F78-C82E-4763-9D80-9C87C2FC44A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F5C0F42-637B-45B4-95C0-75164D8BF457}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F5C0F42-637B-45B4-95C0-75164D8BF457}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F5C0F42-637B-45B4-95C0-75164D8BF457}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F5C0F42-637B-45B4-95C0-75164D8BF457}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
