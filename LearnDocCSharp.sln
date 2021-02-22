@@ -13,13 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecordTypeProject", "Record
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TopLevelStatements", "TopLevelStatements\TopLevelStatements.csproj", "{BB4750DF-074B-4354-8E0F-C491385D9857}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternObjectsProject", "PatternObjectsProject\PatternObjectsProject.csproj", "{007E9AB4-B148-4D44-8047-08889D4E9485}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PatternObjectsProject", "PatternObjectsProject\PatternObjectsProject.csproj", "{007E9AB4-B148-4D44-8047-08889D4E9485}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerRelationshipProject", "CustomerRelationshipProject\CustomerRelationshipProject.csproj", "{89200F78-C82E-4763-9D80-9C87C2FC44A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomerRelationshipProject", "CustomerRelationshipProject\CustomerRelationshipProject.csproj", "{89200F78-C82E-4763-9D80-9C87C2FC44A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MixinsWithInterfacesProject", "MixinsWithInterfacesProject\MixinsWithInterfacesProject.csproj", "{8F5C0F42-637B-45B4-95C0-75164D8BF457}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MixinsWithInterfacesProject", "MixinsWithInterfacesProject\MixinsWithInterfacesProject.csproj", "{8F5C0F42-637B-45B4-95C0-75164D8BF457}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RangesIndexes", "RangesIndexes\RangesIndexes.csproj", "{3F6DE8E7-D74F-4FC0-9B1C-C98D515A1E6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RangesIndexes", "RangesIndexes\RangesIndexes.csproj", "{3F6DE8E7-D74F-4FC0-9B1C-C98D515A1E6E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenerateConsumeAsynchronousStreams", "GenerateConsumeAsynchronousStreams\GenerateConsumeAsynchronousStreams.csproj", "{E2496FFD-918E-421B-ADAF-B99D8598BFEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{3F6DE8E7-D74F-4FC0-9B1C-C98D515A1E6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F6DE8E7-D74F-4FC0-9B1C-C98D515A1E6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F6DE8E7-D74F-4FC0-9B1C-C98D515A1E6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2496FFD-918E-421B-ADAF-B99D8598BFEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2496FFD-918E-421B-ADAF-B99D8598BFEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2496FFD-918E-421B-ADAF-B99D8598BFEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2496FFD-918E-421B-ADAF-B99D8598BFEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
