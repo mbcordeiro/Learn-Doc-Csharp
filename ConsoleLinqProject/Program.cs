@@ -58,7 +58,7 @@ namespace ConsoleLinqProject
                     .LogQuery("Top Half")
                     .InterleaveSequenceWith(shuffle.Skip(26).LogQuery("Bottom Half"))
                     .LogQuery("Shuffle")
-                    .ToArray();
+                    .ToArray();//
                 */
 
                 shuffle = shuffle.Skip(26)
