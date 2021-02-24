@@ -25,7 +25,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenerateConsumeAsynchronous
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TollCalculatorProject", "TollCalculatorProject\TollCalculatorProject.csproj", "{EBB35977-279A-48B2-8BB5-D2D79A063B9A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIClientConsoleProject", "WebAPIClientConsoleProject\WebAPIClientConsoleProject.csproj", "{9182929C-6AB1-4430-9CFA-483750AA68DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPIClientConsoleProject", "WebAPIClientConsoleProject\WebAPIClientConsoleProject.csproj", "{9182929C-6AB1-4430-9CFA-483750AA68DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleLinqProject", "ConsoleLinqProject\ConsoleLinqProject.csproj", "{FECE25B4-E64E-4C12-A96B-EB9662F68072}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{9182929C-6AB1-4430-9CFA-483750AA68DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9182929C-6AB1-4430-9CFA-483750AA68DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9182929C-6AB1-4430-9CFA-483750AA68DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FECE25B4-E64E-4C12-A96B-EB9662F68072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FECE25B4-E64E-4C12-A96B-EB9662F68072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FECE25B4-E64E-4C12-A96B-EB9662F68072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FECE25B4-E64E-4C12-A96B-EB9662F68072}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
