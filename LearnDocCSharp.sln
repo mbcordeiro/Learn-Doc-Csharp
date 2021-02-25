@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPIClientConsoleProject"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleLinqProject", "ConsoleLinqProject\ConsoleLinqProject.csproj", "{FECE25B4-E64E-4C12-A96B-EB9662F68072}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesAndEvents", "DelegatesAndEvents\DelegatesAndEvents.csproj", "{77E1022F-9D6B-4A44-AC1E-A30938E50507}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DelegatesAndEvents", "DelegatesAndEvents\DelegatesAndEvents.csproj", "{77E1022F-9D6B-4A44-AC1E-A30938E50507}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatternMatching", "PatternMatching\PatternMatching.csproj", "{03C2BC93-304B-446D-8706-5CD73DC1C000}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{77E1022F-9D6B-4A44-AC1E-A30938E50507}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77E1022F-9D6B-4A44-AC1E-A30938E50507}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77E1022F-9D6B-4A44-AC1E-A30938E50507}.Release|Any CPU.Build.0 = Release|Any CPU
+		{03C2BC93-304B-446D-8706-5CD73DC1C000}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03C2BC93-304B-446D-8706-5CD73DC1C000}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03C2BC93-304B-446D-8706-5CD73DC1C000}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03C2BC93-304B-446D-8706-5CD73DC1C000}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
